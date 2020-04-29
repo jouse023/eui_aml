@@ -113,7 +113,7 @@ if($method == 'POST'){
 
                 //AML API 查詢
                 $aml = new Process();
-                $api_res = $aml->djapi($paras);
+                $api_res = $aml->amlapi($paras);
                 $response['status'] = 200;
                 $response['data'] = $api_res ;
         }
